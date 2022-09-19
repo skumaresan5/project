@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alumni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: rgb(6, 6, 58);
+            color: yellow;
+        }
+        
+        .container {
+            padding: 0 16px;
+        }
+        
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .title {
+            color: grey;
+        }
+        
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: rgb(255, 255, 6);
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><img src="Images/kr.png" alt="" style="left:0%;height: 70px;width: 70px;;"><a href="https://krce.ac.in/">KRCE</a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abt.html">About</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="gal.html">Gallery</a></li>
+                <li><a href="cont.html">Contact</a></li>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/don.kuttykumaresan"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/KUMARESAN2356?t=xY_fvdg3SrTpHhZSS7COOg&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/kumaresan_sivakumar__?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/channel/UCJLY73-orLkTU_YNqLkEwSA"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="img">
+        <img src="Images/krce.png" alt="" style="width:100%;height: 300px;">
+    </div>
+    <div class="about-section">
+        <h1>Our Best Alumni Student</h1>
+        <p>Be Unique</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="Images/apj.png" alt="" style="width:100%">
+                <div class="container">
+                    <h2>A. P. J. Abdul Kalam</h2>
+                    <br>
+                    <p class="title">Former President of India</p>
+                    <br>
+                    <p>"If you fail, never give up because FAIL means "First Attempt In Learning". "Failure will never overtake me if my determination to succeed is strong enough." "All of us do not have equal talent. But , all of us have an equal opportunity
+                        to develop our talents."</p>
+                    <br>
+                    <div class="button"><a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Read more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="card">
+                <img src="Images/kamaraj.png" alt="" style="width:100%">
+                <div class="container">
+                    <h2>K. Kamaraj</h2>
+                    <br>
+                    <p class="title">Former Chief Minister of TamilNadu State</p>
+                    <br>
+                    <p>Not everyone’s life is history, no history has ever lived for himself </p>
+                    <br>
+                    <p>The most cynical thing in the world is the use of others for self-interest.</p>
+                    <br>
+                    <div class="button"><a href="https://en.wikipedia.org/wiki/K._Kamaraj">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="Images/br.png" alt="" style="width:100%">
+                <div class="container">
+                    <h2>B.R.Ambedkar</h2>
+                    <br>
+                    <p class="title">Former Minister of Law and Justice of India</p>
+                    <br>
+                    <p>“Law and order are the medicine of the body politic and when the body politic gets sick, medicine must be administered.”</p>
+
+                    <br>
+                    <div class="button"><a href="https://en.wikipedia.org/wiki/B._R._Ambedkar">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

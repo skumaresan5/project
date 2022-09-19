@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        input[type=email],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><img src="Images/kr.png" alt="" style="left:0%;height: 70px;width: 70px;;"><a href="https://krce.ac.in/">KRCE</a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abt.html">About</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
+                <li><a href="gal.html">Gallery</a></li>
+                <li><a href="cont.html">Contact</a></li>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/don.kuttykumaresan"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/KUMARESAN2356?t=xY_fvdg3SrTpHhZSS7COOg&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/kumaresan_sivakumar__?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/channel/UCJLY73-orLkTU_YNqLkEwSA"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="img">
+        <img src="Images/krce.png" alt="" style="width:100%;height: 300px;">
+    </div>
+
+    <div class="text1">
+        <h1>Contact us</h1>
+    </div>
+    <div class="container">
+        <form action="connect.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
